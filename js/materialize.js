@@ -39,6 +39,9 @@
  * OF THE POSSIBILITY OF SUCH DAMAGE.
  *
 */
+$(document).ready(function(){
+	$('.scrollspy').scrollSpy();
+});
 
 // t: current time, b: begInnIng value, c: change In value, d: duration
 jQuery.easing['jswing'] = jQuery.easing['swing'];
@@ -2346,9 +2349,9 @@ $(document).ready(function(){
 		    var offset = $(this.hash).offset().top + 1;
 
 //          offset - 200 allows elements near bottom of page to scroll
-			
+
 	    	$('html, body').animate({ scrollTop: offset - 200 }, {duration: 400, queue: false, easing: 'easeOutCubic'});
-			
+
 		  });
 		});
 		options = options || {

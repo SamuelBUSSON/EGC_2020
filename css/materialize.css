@@ -3,14 +3,18 @@
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
- 
+
+ html {
+  scroll-behavior: smooth;
+}
+
  .parallax-container {
       height:300px;
     }
-.parallax-container.two{height:400px; padding-top:100px;}	
+.parallax-container.two{height:400px; padding-top:100px;}
 .height-50{ margin-top:50px;}
-.top_bttm{ padding:100px 0;}	
-footer.page-footer{ margin-top:0px !important;}     
+.top_bttm{ padding:100px 0;}
+footer.page-footer{ margin-top:0px !important;}
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important; }
 
