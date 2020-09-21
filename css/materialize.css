@@ -8,6 +8,10 @@
   scroll-behavior: smooth;
 }
 
+.cd-description{
+  	display: none;
+}
+
  .parallax-container {
       height:300px;
     }
