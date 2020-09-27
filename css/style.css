@@ -33,6 +33,12 @@
     font-weight: 300;
 }
 
+.about-desc {
+    font-style: italic;
+    line-height: 40px;
+    font-size: 22px;
+}
+
 @media (min-width: 1200px) {
     .enjmin-logo {
         height: 100%;
