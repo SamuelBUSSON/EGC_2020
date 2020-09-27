@@ -76,4 +76,12 @@
         text-align: center;
         width: 100%;
     }
+
+    .egc-carousel-desc>p {
+        font-family: 'Quicksand';
+        font-size: 1.75em;
+        padding: 6px;
+        color: white;
+        background-color: rgba(255, 138, 128, 0.8);
+    }
 }
