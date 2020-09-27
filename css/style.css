@@ -1,0 +1,29 @@
+.enjmin-logo-text {
+    font-family: 'Quicksand';
+}
+
+@media (min-width: 1200px) {
+    .enjmin-logo {
+        height: 100%;
+        position : absolute;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    .enjmin-logo {
+        display:none;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 730px) {
+    .enjmin-logo {
+        height: 100%;
+        position : absolute;
+    }
+}
+
+@media (max-width: 730px) {
+    .enjmin-logo {
+        display:none;
+    }
+}
