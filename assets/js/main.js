@@ -382,4 +382,8 @@ $('.carousel.carousel-slider').carousel({
     fullWidth: true,
     indicators: true
 });
-        
+		
+//Smooth scroll
+$(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+});
