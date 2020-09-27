@@ -13,6 +13,25 @@
     object-fit: cover;
 }
 
+.egc-carousel-desc {
+    text-align: right;
+}
+
+.egc-carousel-desc>p {
+    font-family: 'Quicksand';
+    font-size: 2.5em;
+    padding: 6px;
+    color: white;
+    background-color: rgba(255, 138, 128, 0.8);
+}
+
+.heavy-desc {
+    font-weight: bold;
+}
+
+.light-desc {
+    font-weight: 300;
+}
 
 @media (min-width: 1200px) {
     .enjmin-logo {
