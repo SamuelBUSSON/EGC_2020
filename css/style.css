@@ -20,7 +20,7 @@
 .egc-carousel-desc>p {
     font-family: 'Quicksand';
     font-size: 2.5em;
-    padding: 6px;
+    padding: 6px 16px 6px 16px;
     color: white;
     background-color: rgba(255, 138, 128, 0.8);
 }
@@ -80,7 +80,7 @@
     .egc-carousel-desc>p {
         font-family: 'Quicksand';
         font-size: 1.75em;
-        padding: 6px;
+        padding: 4px 10px 4px 10px;
         color: white;
         background-color: rgba(255, 138, 128, 0.8);
     }
