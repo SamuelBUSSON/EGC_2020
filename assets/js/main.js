@@ -1,3 +1,4 @@
+//Schedule
 (function() {
 	// Schedule Template - by CodyHouse.co
 	function ScheduleTemplate( element ) {
@@ -374,3 +375,11 @@
 		};
 	}
 }());
+
+
+//Carousel
+$('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+});
+        
