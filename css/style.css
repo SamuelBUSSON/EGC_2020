@@ -2,11 +2,9 @@
     font-family: 'Quicksand';
 }
 
-.egc-carousel-item {
-    max-height: 400px !important;
-}
 
 .img-responsive {
+
     max-width: 100%;
     max-height: 600px;
     height: auto;

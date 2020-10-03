@@ -10830,6 +10830,7 @@ $jscomp.polyfill = function (e, r, p, m) {
     }, {
       key: "_setCarouselHeight",
       value: function _setCarouselHeight(imageOnly) {
+        
         var _this65 = this;
 
         var firstSlide = this.$el.find('.carousel-item.active').length ? this.$el.find('.carousel-item.active').first() : this.$el.find('.carousel-item').first();
@@ -10849,14 +10850,21 @@ $jscomp.polyfill = function (e, r, p, m) {
             }
           } else {
             // Get height when image is loaded normally
+            firstImage.on('load', (e) => {
+              _this65.$el.css('height', firstImage.height() + 'px');
+            });
+
+            /*
             firstImage.one('load', function (el, i) {
               _this65.$el.css('height', el.offsetHeight + 'px');
             });
+            */
           }
         } else if (!imageOnly) {
           var slideHeight = firstSlide.height();
           this.$el.css('height', slideHeight + 'px');
         }
+        
       }
 
       /**
