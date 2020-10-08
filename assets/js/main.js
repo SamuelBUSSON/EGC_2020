@@ -19,7 +19,7 @@
 		this.modalEventName = this.modal.getElementsByClassName('cd-schedule-modal__name')[0];
 		this.coverLayer = this.element.getElementsByClassName('cd-schedule__cover-layer')[0];
 
-		this.modalMaxWidth = 1000;
+		this.modalMaxWidth = 900;
 		this.modalMaxHeight = 480;
 
 		this.animating = false;
