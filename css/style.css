@@ -3,6 +3,10 @@
 }
 
 
+.on-pointer:hover
+{
+   cursor: pointer;
+}
 
 
 .img-responsive {

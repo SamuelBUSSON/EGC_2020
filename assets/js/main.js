@@ -1,3 +1,9 @@
+function openInNewTab(url) {
+  var win = window.open(url, '_blank');
+  win.focus();
+}
+
+
 (function() {
 	// Schedule Template - by CodyHouse.co
 	function ScheduleTemplate( element ) {
